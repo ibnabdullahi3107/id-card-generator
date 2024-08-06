@@ -1,0 +1,28 @@
+{
+  "name": "student-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "fs-extra": "^11.2.0",
+    "html-pdf": "^3.0.1",
+    "http-status-codes": "^2.3.0",
+    "mime-types": "^2.1.35",
+    "multer": "^1.4.5-lts.1",
+    "pdfkit": "^0.15.0",
+    "pug": "^3.0.3",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
